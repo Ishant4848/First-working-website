@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qu2</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #eaf2f8;
+        margin: 0;
+        padding: 30px;
+    }
+
+    h1 {
+        text-align: center;
+        color: #2c3e50;
+        text-transform: capitalize;
+    }
+
+    form {
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 25px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    form div {
+        margin-bottom: 18px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 7px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    input:focus,
+    textarea:focus {
+        outline: none;
+        border-color: #3498db;
+        box-shadow: 0 0 5px rgba(52, 152, 219, 0.4);
+    }
+
+    textarea {
+        height: 100px;
+        resize: vertical;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #217dbb;
+    }
+</style>
+
+</head>
+<body>
+    <h1> this is only for my skill test</h1>
+    <form action="">
+        <div>
+            <label for="Name" >Name:</label>
+            <input type="text" id="Name" placeholder="Enter your name">
+        </div>
+         <div>
+            <label for="phone" >phone:</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+        </div>
+         <div>
+            <label for="email" >Email:</label>
+            <input type="email" id="email" placeholder="Enter your email">
+        </div>
+         <div>
+            <label for="age" >Age:</label>
+            <input type="number" id="age" placeholder="Enter your age">
+        </div>
+         <div>
+            <label for="dob" >Date Of Birth</label>
+            <input type="date" id="dob" placeholder="Enter your age">
+        </div>
+          <div>
+            <label for="address" >Address:</label>
+            <textarea id="address" placeholder="Enter your address"></textarea>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
