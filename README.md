@@ -1,4 +1,4 @@
-# Soham Rakhonde
+# Ishant Tiwari
 
 Personal portfolio website for [sohamrakhonde.com](https://sohamrakhonde.com).
 
